@@ -5,6 +5,11 @@ function Tempo(props) {
 
     return (
         <div>
+            <Link href="/">
+                <a>Acessar página Home</a>
+            </Link>
+            <br/>
+
             <div>{dynamicDateString} (dinâmico)</div>
             <div>{props.staticDateString} (estático)</div>
         </div>
